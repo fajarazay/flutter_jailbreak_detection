@@ -30,6 +30,8 @@ android {
 
     namespace "appmire.be.flutterjailbreakdetection"
     
+    kotlinOptions { jvmTarget = JavaVersion.VERSION_1_8 }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
